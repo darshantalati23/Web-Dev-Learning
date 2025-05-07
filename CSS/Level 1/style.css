@@ -1,0 +1,26 @@
+/* 
+    Primary Colours:
+    --timberwolf: #dad7cdff;
+    --sage: #a3b18aff;
+    --fern-green: #588157ff;
+    --hunter-green: #3a5a40ff;
+    --brunswick-green: #344e41ff;
+*/
+
+* {
+    background-color: #dad7cd;
+    color:#3a5a40ff;
+}
+
+.Button {
+    background-color: #a3b18a; /* Sage */
+    color: #344e41; /* Brunswick Green */
+}
+
+h1 {
+    color: #344e41;
+}
+
+#ContactTitle {
+    color: #588157ff;
+}
