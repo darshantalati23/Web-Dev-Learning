@@ -12,12 +12,12 @@
 
 h1 {
     text-align: center; /* Start: Left(eng/hin/guj) or Right(urdu); End corresponsingly*/
-    text-transform: capitalize; /* None, Uppercase, Lowercase */
 }
 
 h3 {
     color: #543384;
     font-weight: 150;
+    text-transform: capitalize; /* None, Uppercase, Lowercase */
 }
 
 b {
@@ -47,5 +47,5 @@ button {
 }
 
 #inner {
-    font-size: 15px;
+    font-size: 18px;
 }
