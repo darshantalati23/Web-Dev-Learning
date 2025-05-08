@@ -1,0 +1,51 @@
+/*
+    #DEE2FF
+    #dad3ef
+    #543384
+    #3d4d69
+*/
+* {
+    background-color: #DEE2FF;
+    color: #3d4d69;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center; /* Start: Left(eng/hin/guj) or Right(urdu); End corresponsingly*/
+    text-transform: capitalize; /* None, Uppercase, Lowercase */
+}
+
+h3 {
+    color: #543384;
+    font-weight: 150;
+}
+
+b {
+    font-weight: 550;
+}
+
+a{
+    text-decoration: none; /* Underline/Overline/Dotted... etc. */
+    color: #543384;
+    font-weight: lighter;
+    background-color: #dad3ef;
+}
+
+button {
+    background-color: #dad3ef;
+    color: #543384;
+}
+
+#Content {
+    text-align: justify;
+    font-family:'Gill Sans', 'Calibri', Arial, 'Segoe UI'; /* Left to Right decreasing priority */
+}
+
+#outer {
+    font-size: 25px;
+    color: #543384;
+}
+
+#inner {
+    font-size: 15px;
+}
