@@ -1,0 +1,47 @@
+* {
+    background-color: #dcf6ee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: aqua;
+    position: absolute; /*wrt lowest ancestor (not itself)*/
+    height: 300px;
+    top: 50px;
+    left: 50px;
+
+}
+
+#box2 {
+    background-color: rgb(0, 255, 204);
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+#box3 {
+    background-color: #135a4e;
+    color: #ebf8f4;
+    background-image: url("skylineImage.jpg");
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 94em;
+    height: 200px;
+}
+
+#box4 {
+    background-color: rgb(22, 113, 143);
+    color: #ebf8f4;
+}
