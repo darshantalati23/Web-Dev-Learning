@@ -1,0 +1,21 @@
+* {
+    background-color: aliceblue;
+}
+
+#round {
+    width: 200px;
+    height: 200px;
+    border: 2px solid brown;
+    border-radius: 50%;
+    border-top: 2px #99501b;
+    animation: spinAnimate 2s ease 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
